@@ -53,6 +53,15 @@
 		76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A9A1E7A833C005899F2 /* RFDAddressBookViewController.m */; };
 		76AF0AA11E7A8351005899F2 /* RFDFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */; };
 		76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0AA41E7A835F005899F2 /* RFDMeViewController.m */; };
+		76B1FB4D1E9F12810006A0B4 /* exec.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB421E9F12810006A0B4 /* exec.js */; };
+		76B1FB4E1E9F12810006A0B4 /* platform.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB431E9F12810006A0B4 /* platform.js */; };
+		76B1FB4F1E9F12810006A0B4 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB441E9F12810006A0B4 /* cordova.js */; };
+		76B1FB501E9F12810006A0B4 /* cordova_plugins.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB451E9F12810006A0B4 /* cordova_plugins.js */; };
+		76B1FB511E9F12810006A0B4 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB471E9F12810006A0B4 /* index.css */; };
+		76B1FB521E9F12810006A0B4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB491E9F12810006A0B4 /* logo.png */; };
+		76B1FB531E9F12810006A0B4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB4A1E9F12810006A0B4 /* index.html */; };
+		76B1FB541E9F12810006A0B4 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB4C1E9F12810006A0B4 /* index.js */; };
+		76B1FB571E9F12C10006A0B4 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 76B1FB561E9F12C10006A0B4 /* config.xml */; };
 		76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977DD1E7BB3F2002929D4 /* RFDTableViewController.m */; };
 		76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977E01E7BBA2E002929D4 /* RFDTableViewCell.m */; };
 		76D977E61E7BBDA1002929D4 /* UIView+RFD.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977E51E7BBDA1002929D4 /* UIView+RFD.m */; };
@@ -184,6 +193,15 @@
 		76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFindViewController.m; sourceTree = "<group>"; };
 		76AF0AA31E7A835F005899F2 /* RFDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMeViewController.h; sourceTree = "<group>"; };
 		76AF0AA41E7A835F005899F2 /* RFDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMeViewController.m; sourceTree = "<group>"; };
+		76B1FB421E9F12810006A0B4 /* exec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exec.js; sourceTree = "<group>"; };
+		76B1FB431E9F12810006A0B4 /* platform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = platform.js; sourceTree = "<group>"; };
+		76B1FB441E9F12810006A0B4 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
+		76B1FB451E9F12810006A0B4 /* cordova_plugins.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova_plugins.js; sourceTree = "<group>"; };
+		76B1FB471E9F12810006A0B4 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		76B1FB491E9F12810006A0B4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		76B1FB4A1E9F12810006A0B4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		76B1FB4C1E9F12810006A0B4 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		76B1FB561E9F12C10006A0B4 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		76D977DC1E7BB3F2002929D4 /* RFDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTableViewController.h; sourceTree = "<group>"; };
 		76D977DD1E7BB3F2002929D4 /* RFDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDTableViewController.m; sourceTree = "<group>"; };
 		76D977DF1E7BBA2E002929D4 /* RFDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTableViewCell.h; sourceTree = "<group>"; };
@@ -317,6 +335,8 @@
 		76AF0A161E7A40A6005899F2 = {
 			isa = PBXGroup;
 			children = (
+				76B1FB561E9F12C10006A0B4 /* config.xml */,
+				76B1FB401E9F12810006A0B4 /* www */,
 				76AF0A211E7A40A6005899F2 /* RolePlay */,
 				76D977ED1E7BC553002929D4 /* Resource */,
 				76AF0A7E1E7A42B4005899F2 /* Info.plist */,
@@ -598,6 +618,53 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		76B1FB401E9F12810006A0B4 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				76B1FB411E9F12810006A0B4 /* cordova-js-src */,
+				76B1FB441E9F12810006A0B4 /* cordova.js */,
+				76B1FB451E9F12810006A0B4 /* cordova_plugins.js */,
+				76B1FB461E9F12810006A0B4 /* css */,
+				76B1FB481E9F12810006A0B4 /* img */,
+				76B1FB4A1E9F12810006A0B4 /* index.html */,
+				76B1FB4B1E9F12810006A0B4 /* js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		76B1FB411E9F12810006A0B4 /* cordova-js-src */ = {
+			isa = PBXGroup;
+			children = (
+				76B1FB421E9F12810006A0B4 /* exec.js */,
+				76B1FB431E9F12810006A0B4 /* platform.js */,
+			);
+			path = "cordova-js-src";
+			sourceTree = "<group>";
+		};
+		76B1FB461E9F12810006A0B4 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				76B1FB471E9F12810006A0B4 /* index.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		76B1FB481E9F12810006A0B4 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				76B1FB491E9F12810006A0B4 /* logo.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		76B1FB4B1E9F12810006A0B4 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				76B1FB4C1E9F12810006A0B4 /* index.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
 		76D977E31E7BBC40002929D4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -790,6 +857,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B1FB531E9F12810006A0B4 /* index.html in Resources */,
 				76D977FC1E7BC553002929D4 /* 4.jpg in Resources */,
 				76D977FB1E7BC553002929D4 /* 2.jpg in Resources */,
 				76D977FA1E7BC553002929D4 /* 12.jpg in Resources */,
@@ -801,8 +869,16 @@
 				76D977F81E7BC553002929D4 /* 10.jpeg in Resources */,
 				76AF0A621E7A40EE005899F2 /* LaunchScreen.storyboard in Resources */,
 				7626F6BE1E8CD6DF0010E361 /* RFDSwitchCell.xib in Resources */,
+				76B1FB4E1E9F12810006A0B4 /* platform.js in Resources */,
+				76B1FB4F1E9F12810006A0B4 /* cordova.js in Resources */,
+				76B1FB571E9F12C10006A0B4 /* config.xml in Resources */,
+				76B1FB511E9F12810006A0B4 /* index.css in Resources */,
 				76D977FD1E7BC553002929D4 /* 7.jpg in Resources */,
+				76B1FB4D1E9F12810006A0B4 /* exec.js in Resources */,
+				76B1FB541E9F12810006A0B4 /* index.js in Resources */,
+				76B1FB521E9F12810006A0B4 /* logo.png in Resources */,
 				7626F6C51E8CE1080010E361 /* RFDTextFiledCell.xib in Resources */,
+				76B1FB501E9F12810006A0B4 /* cordova_plugins.js in Resources */,
 				76D977F71E7BC553002929D4 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

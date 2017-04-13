@@ -29,16 +29,32 @@
     [self initSubViews];
     _data = [self getTestData];
     
-//    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
-//    [RFDNetworkManager openLog];
-//    [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
-//        NSLog(@"%@",(NSData *)responseCache);
-//    } success:^(id responseObject) {
-//        //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
-//        
-//    } failure:^(NSError *error) {
-//        
-//    }];
+    //    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
+    //    [RFDNetworkManager openLog];
+    //    [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
+    //        NSLog(@"%@",(NSData *)responseCache);
+    //    } success:^(id responseObject) {
+    //        //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
+    //
+    //    } failure:^(NSError *error) {
+    //
+    //    }];
+    
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:SCREEN_BOUNDS];
+    [self.view addSubview:webView];
+    NSString * htmlPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    NSString * htmlCont = [NSString stringWithContentsOfFile:htmlPath encoding:NSUTF8StringEncoding error:nil];
+    
+    // 获取当前应用的根目录
+    NSString *path = [[NSBundle mainBundle] bundlePath];
+    NSURL *baseURL = [NSURL fileURLWithPath:path];
+    
+    // 通过baseURL的方式加载的HTML
+    // 可以在HTML内通过相对目录的方式加载js,css,img等文件
+    [webView loadHTMLString:htmlCont baseURL:baseURL];
+//    NSURL *url = [[NSBundle mainBundle] URLForResource:@"index" withExtension:@"html"];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+//    [webView loadRequest:request];
     
 }
 

@@ -1,36 +1,33 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6112B40FD67B063288380F3C824D67D2A526635E+++B774F49",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "79827D1CD6C4EC4C150783C68368281C65F6BD8C+++36A5214" : {
+
+    },
     "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : {
 
     },
     "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : {
 
-    },
-    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : {
-
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : 9223372036854775807,
+    "79827D1CD6C4EC4C150783C68368281C65F6BD8C+++36A5214" : 9223372036854775807,
     "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : 9223372036854775807,
-    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : 9223372036854775807
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : 9223372036854775807,
+    "6112B40FD67B063288380F3C824D67D2A526635E+++B774F49" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "233A6608-09FE-4B80-A3B3-CBBE5A03A625",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : "RolePlay-master\/",
+    "79827D1CD6C4EC4C150783C68368281C65F6BD8C+++36A5214" : "RolePlay\/",
     "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : "RolePlay\/",
-    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : "RolePlay\/"
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : "RolePlay-master\/",
+    "6112B40FD67B063288380F3C824D67D2A526635E+++B774F49" : "RolePlay_cordova\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "RolePlay",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RolePlay\/RolePlay.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn4.apicloud.com\/A6945140950987",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214"
-    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn4.apicloud.com\/A6945140950987",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
@@ -40,6 +37,16 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shuxiongWu\/RolePlay.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shuxiongWu\/RolePlay_cordova.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6112B40FD67B063288380F3C824D67D2A526635E+++B774F49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn4.apicloud.com\/A6945140950987",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79827D1CD6C4EC4C150783C68368281C65F6BD8C+++36A5214"
     }
   ]
 }

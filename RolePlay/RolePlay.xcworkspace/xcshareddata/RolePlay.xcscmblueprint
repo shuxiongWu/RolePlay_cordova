@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : {
+
+    },
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : {
+
+    },
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : 9223372036854775807,
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : 9223372036854775807,
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "233A6608-09FE-4B80-A3B3-CBBE5A03A625",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818" : "RolePlay-master\/",
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C" : "RolePlay\/",
+    "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214" : "RolePlay\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RolePlay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RolePlay\/RolePlay.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn4.apicloud.com\/A6945140950987",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++36A5214"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn4.apicloud.com\/A6945140950987",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++9C23818"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shuxiongWu\/RolePlay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0e1a2743-8d03-4e5a-a60c-7e26af42b145++4656+++F21CF9C"
+    }
+  ]
+}
